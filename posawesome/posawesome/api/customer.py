@@ -13,7 +13,7 @@ def after_insert(doc, method):
     create_customer_referral_code(doc)
     create_gift_coupon(doc)
 
-
+#print
 def validate(doc, method):
     validate_referral_code(doc)
 
